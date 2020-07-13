@@ -13,11 +13,14 @@ import Hero2 from './Hero2';
 
 
 
+
+
  function App() {
   return (
     <div>
       <img class="logo" alt="pokemon shinx" src={require('./Images/pokemon-x-and-y-shinx-luxio-pokemon-shinx.jpg')} />
       <Header/>
+      
       <Nav />
       <Hero/>
       <Purpose/>
